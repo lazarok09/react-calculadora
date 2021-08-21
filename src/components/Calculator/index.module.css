@@ -6,7 +6,8 @@
 }
 @media (max-width: 767px) {
   .calculatorFrame {
-    max-width: 70vw;
+    max-width: 90vw;
+    height: 90vh;
   }
 }
 .calculatorNumberNow {
@@ -76,6 +77,10 @@
   align-items: center;
   margin-bottom: 10px;
 }
+.clearButton:hover,
+.clearButton button {
+  cursor: pointer;
+}
 .clearButton button {
   background: none;
   text-align: center;
@@ -85,4 +90,7 @@
 .zero {
   color: red;
   padding: 0.5rem;
+}
+.randomButton {
+  color: white;
 }
